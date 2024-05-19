@@ -189,3 +189,55 @@ body {
     font-size: 38px;
     color:  rgba(238, 218, 174, 1);
 }
+.front-end-section{
+    display: flex;
+    flex-direction: column;
+    width: 407px;
+    align-items: center;
+    color:  rgba(238, 218, 174, 1);
+    font-size: x-large;
+    gap: 6px;
+    line-height: 1.5;
+    background-color:  rgb(30, 31, 65);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.back-end-section{
+    display: flex;
+    flex-direction: column;
+    width: 407px;
+    align-items: center;
+    color:  rgba(238, 218, 174, 1);
+    font-size: x-large;
+    gap: 6px;
+    line-height: 1.5;
+    background-color:  rgb(30, 31, 65);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.tools-section{
+    display: flex;
+    flex-direction: column;
+    width: 407px;
+    align-items: center;
+    margin-top: 80px;
+    gap: 6px;
+    line-height: 1.5;
+    background-color:  rgb(30, 31, 65);
+    color:  rgba(238, 218, 174, 1);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: x-large;
+}
+.skills-heading-2{
+    color: rgba(225, 58, 75, 1);
+    font-size: xx-large;
+}
+.front-back-end-section{
+    display: flex;
+    margin-top: 50px;
+    gap: 50px;
+    
+}
