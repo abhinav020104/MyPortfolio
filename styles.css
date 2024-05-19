@@ -22,7 +22,6 @@ body {
     user-select: none;
   }
   
-  /* Chrome, Edge, and Safari */
   *::-webkit-scrollbar {
     width: 3px;
   }
@@ -167,22 +166,23 @@ body {
 
 .my-skills-section {
     width: 100vw;
-    height: 1120px;
+    height: 1200px;
     background-color: rgba(32, 33, 71, 1);
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-y: hidden;
 }
 .branch-1{
     position: absolute;
-    margin-top: 200px;
-    margin-right: 1300px;
+    margin-top: 20%;
+    margin-right: 84%;
 }
 .branch-2{
     position: absolute;    
-    margin-top: 200px;
-    margin-left: 1390px;
+    margin-top: 40%;
+    margin-left: 91.5%;
 }
 .skills-heading{
     margin-top: 50px;
@@ -240,4 +240,33 @@ body {
     margin-top: 50px;
     gap: 50px;
     
+}
+.skills-section-mountain{
+    margin-top: 65.5%;
+    margin-right: 90%;
+    position: absolute; 
+}
+.skills-section-mountain img{
+    width: 180px;
+    height: auto;
+}
+.skills-section-tree{
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 1%;
+}
+.skills-section-mountain-2{
+    position: absolute;
+    margin-top: 68%;
+    margin-left: 89%;
+}
+.skills-section-mountain-2 img{
+    width: 180px;
+    height: auto;
+    
+}
+.projects-section{
+    width: 100vw;
+    height: 1120px;
+    background-color: rgba(238, 218, 174, 1);
 }
