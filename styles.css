@@ -267,7 +267,7 @@ body {
 .project-section-tree{
     position: absolute;
     margin-top: -4.5%;
-    margin-left: 16.5%;
+    margin-left: 9%;
 }
 .projects-section{
     width: 100vw;
@@ -282,5 +282,4 @@ body {
 .project-section-heading{
     margin-top: 18%;
     font-size: 38px;
-
 }
