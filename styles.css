@@ -144,11 +144,6 @@ body {
     margin-left: 1350px;
 }
 
-.my-skills-section {
-    width: 100vw;
-    height: 1120px;
-    background-color: rgba(32, 33, 71, 1);
-}
 
 .avatar{
     position:absolute;
@@ -168,4 +163,29 @@ body {
     font-family: "Poetsen One", sans-serif;
     text-align:justify ;
     line-height: 1.5;
+}
+
+.my-skills-section {
+    width: 100vw;
+    height: 1120px;
+    background-color: rgba(32, 33, 71, 1);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.branch-1{
+    position: absolute;
+    margin-top: 200px;
+    margin-right: 1300px;
+}
+.branch-2{
+    position: absolute;    
+    margin-top: 200px;
+    margin-left: 1390px;
+}
+.skills-heading{
+    margin-top: 50px;
+    font-size: 38px;
+    color:  rgba(238, 218, 174, 1);
 }
