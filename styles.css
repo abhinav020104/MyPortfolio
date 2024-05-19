@@ -269,4 +269,10 @@ body {
     width: 100vw;
     height: 1120px;
     background-color: rgba(238, 218, 174, 1);
+    position: relative;
+}
+.project-section-tree{
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 12%;
 }
