@@ -15,8 +15,6 @@ body {
 .main{
     height: 100vh;
     width: 100vw;
-    /* background: url("./assets/bg.png") no-repeat center center; */
-    /* margin-top: -100px; */
 }
 .navbar{
     display: flex;
@@ -39,9 +37,8 @@ body {
 .socials{
     display: flex;
     flex-direction: column;
-    gap: 35px;
     position: absolute;
-    margin-top: 300px;
+    margin-top: 250px;
     margin-right: 1400px;
     border-radius: 10%;
 }
@@ -77,4 +74,11 @@ body {
 /* Styling for the images */
 .social-items img {
     width: 40px; /* Image size */
+}
+
+.mountain-section{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    /* margin-top: 200px; */
 }
