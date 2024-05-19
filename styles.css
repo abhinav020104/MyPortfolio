@@ -6,8 +6,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-y: hidden;
     overflow-x: hidden;
+    overflow-y: auto;
 }
 body {
     font-family: 'Electroharmonix', sans-serif;
@@ -19,10 +19,11 @@ body {
 .navbar{
     display: flex;
     width: 815px;
-    height: 50px;
+    height: 55px;
     margin-top:70px;
     justify-content: space-around;
-    font-size: x-large;
+    font-size: 20px;
+    overflow-y: hidden;
 }
 .name-section{
     display: flex;
@@ -80,5 +81,5 @@ body {
     display: flex;
     width: 100vw;
     justify-content: space-between;
-    /* margin-top: 200px; */
+    /* margin-top: 500px; */
 }
