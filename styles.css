@@ -8,6 +8,7 @@
     box-sizing: border-box;
     overflow-x: hidden;
     overflow-y: auto;
+    user-select: none;
 }
 body {
     font-family: 'Electroharmonix', sans-serif;
