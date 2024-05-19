@@ -253,17 +253,16 @@ body {
 .skills-section-tree{
     position: absolute;
     margin-top: 60%;
-    margin-left: 1%;
+    margin-left: 9%;
 }
 .skills-section-mountain-2{
     position: absolute;
     margin-top: 68%;
-    margin-left: 89%;
+    margin-left: 88.5%;
 }
 .skills-section-mountain-2 img{
     width: 180px;
     height: auto;
-    
 }
 .projects-section{
     width: 100vw;
@@ -273,6 +272,6 @@ body {
 }
 .project-section-tree{
     position: absolute;
-    margin-top: -5%;
-    margin-left: 12%;
+    margin-top: -4.5%;
+    margin-left: 16.5%;
 }
