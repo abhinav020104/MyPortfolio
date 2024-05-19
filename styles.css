@@ -2,6 +2,7 @@
     font-family: 'Electroharmonix';
     src: url('./fonts/Electroharmonix.otf') format('opentype');
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -10,23 +11,54 @@
     overflow-y: auto;
     user-select: none;
 }
+
 body {
     font-family: 'Electroharmonix', sans-serif;
 }
-.main{
+
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #afb2bf;
+    user-select: none;
+  }
+  
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background:rgba(238, 218, 174, 1);
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color:rgba(238, 218, 174, 1);
+    border-radius: 10px;
+    visibility: hidden;
+  }
+  
+  *:active::-webkit-scrollbar-thumb,
+  *:focus::-webkit-scrollbar-thumb,
+  *:hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+  }
+
+.main {
     height: 100vh;
     width: 100vw;
 }
-.navbar{
+
+.navbar {
     display: flex;
     width: 815px;
     height: 55px;
-    margin-top:70px;
+    margin-top: 170px;
     justify-content: space-around;
     font-size: 20px;
     overflow-y: hidden;
 }
-.name-section{
+
+.name-section {
     display: flex;
     flex-direction: column;
     width: 533px;
@@ -34,26 +66,30 @@ body {
     align-items: center;
     font-size: xx-large;
     gap: 25px;
-    margin-top: 150px;
+    margin-top: 300px;
+    position: absolute;
 }
-.socials{
+
+.socials {
     display: flex;
     flex-direction: column;
     position: absolute;
-    margin-top: 250px;
+    margin-top: 350px;
     margin-right: 1400px;
     border-radius: 10%;
 }
+
 .header {
-    height: 600px;
+    height: 800px;
     width: 100vw;
-    background:rgba(238, 218, 174, 1) url("./assets/bg.png") no-repeat center center;
+    background: rgba(238, 218, 174, 1) url("./assets/bg.png") no-repeat center center;
     background-size: 100%;
-    margin-top: -45px;
+    margin-top: -129px;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
+    overflow-y: hidden;
 }
 
 .social-items {
@@ -61,7 +97,7 @@ body {
     transition: transform 0.3s ease; /* Smooth transition for the transform property */
     width: 60px; /* Square container size */
     height: 60px; /* Square container size */
-    background-color: rgba(238, 218, 174, 1) ; /* Background color for the square */
+    background-color: rgba(238, 218, 174, 1); /* Background color for the square */
     display: flex;
     align-items: center; /* Center image vertically */
     justify-content: center; /* Center image horizontally */
@@ -78,9 +114,20 @@ body {
     width: 40px; /* Image size */
 }
 
-.mountain-section{
+.mountain-section {
     display: flex;
     width: 100vw;
     justify-content: space-between;
-    /* margin-top: 500px; */
+    margin-top: 100px;
+    position: absolute;
+    width: 200px;
+    height: auto;
+    margin-top: 600px;
+    margin-right: 1350px;
+}
+
+.my-skills-section {
+    width: 100vw;
+    height: 1120px;
+    background-color: rgba(32, 33, 71, 1);
 }
