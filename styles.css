@@ -114,7 +114,7 @@ body {
     width: 40px; /* Image size */
 }
 
-.mountain-section {
+.mountain-1{
     display: flex;
     width: 100vw;
     justify-content: space-between;
@@ -124,6 +124,18 @@ body {
     height: auto;
     margin-top: 600px;
     margin-right: 1350px;
+}
+
+.mountain-2{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    margin-top: 00px;
+    position: absolute;
+    width: 200px;
+    height: auto;
+    margin-top: 610px;
+    margin-left: 1350px;
 }
 
 .my-skills-section {
