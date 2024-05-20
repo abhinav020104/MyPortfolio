@@ -536,14 +536,14 @@ button:hover{
 
 .certifications-section{
     width: 100vw;
-    height: 1300px;
+    height: 1380px;
     background-color: rgba(32, 33, 71, 1);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .heading{
-    margin-top: 80px; 
+    margin-top: 60px; 
     font-size:38px;
     color: rgba(238, 218, 174, 1)
 }
@@ -552,7 +552,7 @@ button:hover{
     flex-direction: column;
     width: 100%;
     margin-top:60px;
-    gap: 5rem;
+    gap: 3rem;
 }
 .container-1{
     display: flex;
@@ -618,4 +618,22 @@ button:hover{
 .modal img {
     max-width: 80%;
     max-height: 80%;
+}
+.cert-image-holder{
+    background-color:  rgb(30, 31, 65);
+    padding: 2rem 2rem 2rem 2rem;
+    overflow-y: hidden;
+}
+.contact-me-section{
+    width: 100vw;
+    height: 1120px;
+    background-color: rgba(238, 218, 174, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-section-heading{
+    color: rgba(32, 33, 71, 1);
+    font-size: 38px;
+    margin-top: 60px;
 }
