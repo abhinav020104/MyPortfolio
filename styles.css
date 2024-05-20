@@ -271,12 +271,13 @@ body {
 }
 .projects-section{
     width: 100vw;
-    height: 2600px;
+    height: 2500px;
     background-color: rgba(238, 218, 174, 1);
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-y: hidden;
 }
 
 .project-section-heading{
@@ -482,4 +483,32 @@ button a{
 button:hover{
     scale: 95%;
     transition: all .2s;
+}
+.mountain-projects-2{
+    position: absolute;
+    margin-top:150%;
+    margin-left: 88%;
+}
+.mountain-projects-2 img{
+    width: 200px;
+    height: auto;
+}
+.mountain-projects-1{
+    position: absolute;
+    margin-top:150%;
+    margin-right: 88%;
+}
+.mountain-projects-1 img{
+    width: 200px;
+    height: auto;
+}
+.branch-porjects-1{
+    position: absolute;
+    margin-top: 69%;
+    margin-left: 90%;
+}
+.branch-porjects-2{
+    position: absolute;
+    margin-top: 10%;
+    margin-right: 90%;
 }
