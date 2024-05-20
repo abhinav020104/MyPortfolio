@@ -3,7 +3,7 @@
     src: url('./fonts/Electroharmonix.otf') format('opentype');
 }
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,6 +11,7 @@
     overflow-y: auto;
     user-select: none;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -54,12 +55,20 @@ body {
     height: 100vh;
     width: 100vw;
 }
-
+.header-branch-1{
+    position: absolute;
+    margin-right: 85%;
+    margin-top: -1%;
+}
+.header-branch-2{
+    position: absolute;
+    margin-left: 90%;
+}
 .navbar {
     display: flex;
     width: 815px;
     height: 55px;
-    margin-top: 150px;
+    margin-top: 1%;
     justify-content: space-around;
     font-size: 20px;
     overflow-y: hidden;
@@ -74,7 +83,7 @@ body {
     border-radius: 5px; 
 }
 .navbar a:hover{
-    background-color: #007bff;
+        background-color: #007bff;
         transform: scale(1.05); 
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
@@ -92,7 +101,7 @@ body {
     align-items: center;
     font-size: xx-large;
     gap: 25px;
-    margin-top: 250px;
+    margin-top: 7%;
     position: absolute;
 }
 
@@ -106,11 +115,9 @@ body {
 }
 
 .header {
-    height: 800px;
+    height: 700px;
     width: 100vw;
-    background: rgba(238, 218, 174, 1) url("./assets/bg.png") no-repeat center center;
-    background-size: 100%;
-    margin-top: -129px;
+    background: rgba(238, 218, 174, 1) no-repeat center center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -148,8 +155,8 @@ body {
     position: absolute;
     width: 200px;
     height: auto;
-    margin-top: 600px;
-    margin-right: 1350px;
+    margin-top: 32%;
+    margin-right: 87%;
 }
 
 .mountain-2{
@@ -160,14 +167,14 @@ body {
     position: absolute;
     width: 200px;
     height: auto;
-    margin-top: 610px;
-    margin-left: 1350px;
+    margin-top: 32%;
+    margin-left: 87%;
 }
 
 
 .avatar{
     position:absolute;
-    margin-top: 37%;
+    margin-top: 31.5%;
     margin-left: 1%;
 }
 
@@ -627,7 +634,9 @@ button:hover{
 .contact-me{
     background-color: rgba(238, 218, 174, 1);
     width: 100vw ;
-    height: 1160px;
+    height: 900px;
+    position: relative;
+    overflow-y:hidden;
 }
 .contact-section {
     display: flex;
@@ -688,15 +697,31 @@ button:hover{
 }
 .contact-me-mountain-1{
     position: absolute;
-    margin-top: 81%;
-    margin-left: 91%;
+    margin-right: 91%;
 }
 .contact-me-mountain-2{
     position: absolute;
-    margin-top: 54%;
-    margin-right: 81%;
+    margin-left: 89%;
+}
+.contact-me-mountain-1 img{
+    width: 200px;
+    height: auto;
 }
 .contact-me-mountain-2 img{
     width: 200px;
     height: auto;
+}
+.contact-me-tower{
+    position: absolute;
+    margin-top: 2.5%;
+    margin-left: 15%;
+}
+.contact-me-branch-1{
+    position: absolute;
+    margin-top: -40%;
+}
+.contact-me-branch-2{
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 90%;
 }
