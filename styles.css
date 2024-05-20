@@ -271,7 +271,7 @@ body {
 }
 .projects-section{
     width: 100vw;
-    height: 1120px;
+    height: 1600px;
     background-color: rgba(238, 218, 174, 1);
     position: relative;
     display: flex;
@@ -282,4 +282,126 @@ body {
 .project-section-heading{
     margin-top: 18%;
     font-size: 38px;
+}
+.main-projects-heading{
+    width: 100vw;
+    padding-left: 100px;
+    margin-top: 50px;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main-project-container{
+    display: flex;
+    gap: 20px;
+    margin-top: 60px;
+    justify-content: space-between;
+    width: 100vw;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.main-project-heading-underline{
+    background: rgba(225, 58, 75, 1);
+    height: 10px;
+    width: 20%;
+}
+.main-project-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 50%;
+    background: rgb(203, 170, 100);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 5%;
+}
+.main-project-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 50%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background: rgb(203, 170, 100);
+    border-radius: 5%;
+}
+.main-project-1 img{
+    width: 500px ;
+    height: auto;
+}
+.main-project-1 p{
+    font-family: "Poetsen One", sans-serif;
+}
+.main-project-2 img{
+    width: 500px ;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.main-project-2 p{
+    font-family: "Poetsen One", sans-serif;
+}
+.mini-projects-container{
+    margin-top: 60px;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right:20px;
+    gap: 20px;
+}
+.mini-project-1 img{
+    width: 400px;
+    height: auto;
+}
+.mini-project-2 img{
+    width: 400px;
+    height: auto;
+}
+.mini-project-3 img{
+    width: 400px;
+    height: auto;
+}
+.mini-project-1{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    font-family: "Poetsen One", sans-serif;
+    gap:10px;
+    font-weight: 50;
+    background: rgb(203, 170, 100);
+    border-radius: 5%;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+.mini-project-2{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    font-family: "Poetsen One", sans-serif;
+    gap:10px;
+    font-weight: 50;
+    background: rgb(203, 170, 100);
+    border-radius: 5%;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+.mini-project-3{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    font-family: "Poetsen One", sans-serif;
+    gap:10px;
+    font-weight: 50;
+    background: rgb(203, 170, 100);
+    border-radius: 5%;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
