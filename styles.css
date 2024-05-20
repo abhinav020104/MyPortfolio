@@ -624,16 +624,79 @@ button:hover{
     padding: 2rem 2rem 2rem 2rem;
     overflow-y: hidden;
 }
-.contact-me-section{
-    width: 100vw;
-    height: 1120px;
+.contact-me{
     background-color: rgba(238, 218, 174, 1);
+    width: 100vw ;
+    height: 1160px;
+}
+.contact-section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: rgb(234, 193, 105);
 }
-.contact-section-heading{
-    color: rgba(32, 33, 71, 1);
-    font-size: 38px;
-    margin-top: 60px;
+
+.contact-info, .social-media, .business-inquiries {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.flex-spacer {
+    flex-grow: 1;
+}
+
+.contact-info h3, .social-media h3, .business-inquiries h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-info p, .social-media p, .business-inquiries p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.social-media ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.social-media li {
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+.social-media i {
+    margin-right: 10px;
+}
+.contact-me-mountain-1{
+    position: absolute;
+    margin-top: 81%;
+    margin-left: 91%;
+}
+.contact-me-mountain-2{
+    position: absolute;
+    margin-top: 54%;
+    margin-right: 81%;
+}
+.contact-me-mountain-2 img{
+    width: 200px;
+    height: auto;
 }
