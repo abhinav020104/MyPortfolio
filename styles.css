@@ -96,13 +96,12 @@ body {
 .name-section {
     display: flex;
     flex-direction: column;
-    width: 533px;
-    height: 311px;
+    width:35%;
+    height: 60%;
     align-items: center;
     font-size: xx-large;
     gap: 25px;
-    margin-top: 7%;
-    position: absolute;
+    margin-top: 2%;
 }
 
 .socials {
@@ -115,14 +114,14 @@ body {
 }
 
 .header {
-    height: 700px;
     width: 100vw;
-    background: rgba(238, 218, 174, 1) no-repeat center center;
+    background: rgba(238, 218, 174, 1);
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
     overflow-y: hidden;
+    padding-bottom: 3rem;
 }
 
 .social-items {
@@ -147,45 +146,8 @@ body {
     width: 40px; 
 }
 
-.mountain-1{
-    display: flex;
-    width: 100vw;
-    justify-content: space-between;
-    margin-top: 100px;
-    position: absolute;
-    width: 200px;
-    height: auto;
-    margin-top: 32%;
-    margin-right: 87%;
-}
-
-.mountain-2{
-    display: flex;
-    width: 100vw;
-    justify-content: space-between;
-    margin-top: 00px;
-    position: absolute;
-    width: 200px;
-    height: auto;
-    margin-top: 32%;
-    margin-left: 87%;
-}
-
-
-.avatar{
-    position:absolute;
-    margin-top: 31.5%;
-    margin-left: 1%;
-}
-
-.avatar img{
-    width: 250px; 
-    height: auto; 
-    object-fit: cover;
-}
-
 .intro{
-    margin-top: 25px;
+    /* margin-top: 25px; */
     font-size: medium;
     font-family: "Poetsen One", sans-serif;
     text-align:justify ;
@@ -194,24 +156,16 @@ body {
 
 .my-skills-section {
     width: 100vw;
-    height: 1200px;
+    /* height: 1000px; */
     background-color: rgba(32, 33, 71, 1);
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     overflow-y: hidden;
+    padding-bottom: 5rem;
 }
-.branch-1{
-    position: absolute;
-    margin-top: 20%;
-    margin-right: 84%;
-}
-.branch-2{
-    position: absolute;    
-    margin-top: 40%;
-    margin-left: 91.5%;
-}
+
 .skills-heading{
     margin-top: 50px;
     font-size: 38px;
@@ -269,37 +223,10 @@ body {
     gap: 50px;
     
 }
-.skills-section-mountain{
-    margin-top: 65.5%;
-    margin-right: 90%;
-    position: absolute; 
-}
-.skills-section-mountain img{
-    width: 180px;
-    height: auto;
-}
-.skills-section-tree{
-    position: absolute;
-    margin-top: 60%;
-    margin-left: 9%;
-}
-.skills-section-mountain-2{
-    position: absolute;
-    margin-top: 68%;
-    margin-left: 88.5%;
-}
-.skills-section-mountain-2 img{
-    width: 180px;
-    height: auto;
-}
-.project-section-tree{
-    position: absolute;
-    margin-top: -4.5%;
-    margin-left: 9%;
-}
+
 .projects-section{
     width: 100vw;
-    height: 2500px;
+    height: 2200px;
     background-color: rgba(238, 218, 174, 1);
     position: relative;
     display: flex;
@@ -309,7 +236,7 @@ body {
 }
 
 .project-section-heading{
-    margin-top: 18%;
+    margin-top: 3%;
     font-size: 38px;
 }
 .main-projects-heading{
@@ -327,8 +254,9 @@ body {
     margin-top: 60px;
     justify-content: space-between;
     width: 100vw;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20px;
+    padding-right:20px;
+
 }
 .main-project-heading-underline{
     background: rgba(225, 58, 75, 1);
@@ -341,7 +269,7 @@ body {
     gap: 20px;
     align-items: center;
     width: 50%;
-    background: rgb(203, 170, 100);
+    background: rgb(231, 202, 140);
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     padding-left: 1.5rem;
@@ -359,7 +287,7 @@ body {
     padding-bottom: 1.5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    background: rgb(203, 170, 100);
+    background: rgb(231, 202, 140);
     border-radius: 5%;
     justify-content: space-between;
 }
@@ -412,7 +340,7 @@ body {
     font-family: "Poetsen One", sans-serif;
     gap:10px;
     font-weight: 50;
-    background: rgb(203, 170, 100);
+    background: rgb(231, 202, 140);
     border-radius: 5%;
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
     justify-content:space-between;
@@ -425,7 +353,7 @@ body {
     font-family: "Poetsen One", sans-serif;
     gap:10px;
     font-weight: 50;
-    background: rgb(203, 170, 100);
+    background: rgb(231, 202, 140);
     border-radius: 5%;
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
     justify-content:space-between;
@@ -438,7 +366,7 @@ body {
     font-family: "Poetsen One", sans-serif;
     gap:10px;
     font-weight: 50;
-    background: rgb(203, 170, 100);
+    background: rgb(231, 202, 140);
     border-radius: 5%;
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
     justify-content: space-between;
@@ -447,11 +375,13 @@ body {
     display: flex;
     width: 100vw;
     margin-top: 60px;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
     font-size: 16px;
     font-family: "Poetsen One", sans-serif;
     font-weight: 100;
+    padding-left: 20px;
+    padding-right:20px;
 }
 .clone-1{
     display: flex;
@@ -461,7 +391,7 @@ body {
     font-family: "Poetsen One", sans-serif;
     gap:10px;
     font-weight: 100;
-    background: rgb(203, 170, 100);
+    background: rgb(231, 202, 140);
     height: 350px;
     justify-content: space-between;
     border-radius: 3%;
@@ -476,7 +406,7 @@ body {
     font-family: "Poetsen One", sans-serif;
     gap:10px;
     font-weight: 100;
-    background: rgb(203, 170, 100);
+    background: rgb(231, 202, 140);
     height: 350px;
     justify-content: space-between;
     border-radius: 3%;
@@ -511,34 +441,6 @@ button a{
 button:hover{
     scale: 95%;
     transition: all .2s;
-}
-.mountain-projects-2{
-    position: absolute;
-    margin-top:150%;
-    margin-left: 88%;
-}
-.mountain-projects-2 img{
-    width: 200px;
-    height: auto;
-}
-.mountain-projects-1{
-    position: absolute;
-    margin-top:150%;
-    margin-right: 88%;
-}
-.mountain-projects-1 img{
-    width: 200px;
-    height: auto;
-}
-.branch-porjects-1{
-    position: absolute;
-    margin-top: 69%;
-    margin-left: 90%;
-}
-.branch-porjects-2{
-    position: absolute;
-    margin-top: 10%;
-    margin-right: 90%;
 }
 
 .certifications-section{
@@ -634,7 +536,7 @@ button:hover{
 .contact-me{
     background-color: rgba(238, 218, 174, 1);
     width: 100vw ;
-    height: 900px;
+    height: 700px;
     position: relative;
     overflow-y:hidden;
 }
@@ -694,34 +596,262 @@ button:hover{
 
 .social-media i {
     margin-right: 10px;
+}   
+@media only screen and (max-width:1060px){
+    .name-section{
+        font-size: 25px;
+    }
 }
-.contact-me-mountain-1{
-    position: absolute;
-    margin-right: 91%;
+
+@media only screen and (max-width:800px){
+    .name-section{
+        font-size: 18px
+    }
 }
-.contact-me-mountain-2{
-    position: absolute;
-    margin-left: 89%;
+@media only screen and (max-width:750px){
+    .navbar{
+        display: none;
+    }
+    .name-section{
+        width: 50%;
+        text-align: center;
+    }
+    .intro{
+        text-align: justify;
+        line-height: 1.5;
+    }
 }
-.contact-me-mountain-1 img{
-    width: 200px;
-    height: auto;
+
+@media only screen and (max-width:900px){
+    .front-back-end-section{
+        flex-direction: column;
+        font-size: 30px;
+    }
+    .main-project-container{
+        margin-top: 20px;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+    }
+    .main-project-1{
+        width: 70%;
+        height: 60%;
+
+        font-size: 12px;
+    }
+    .main-project-1 p {
+        overflow-y: hidden;
+        /* padding-bottom: rem; */
+    }
+    .main-project-2{
+        width: 70%;
+        height: 62%;
+        font-size: 12px;
+
+    }
+    .main-project-2 p{
+        overflow-y: hidden;
+    }
+    .project-section-heading{
+        font-size: 28px;
+        height:100px;
+    }
+    .main-projects-heading{
+        height: 70px;
+        overflow-y: hidden;
+    }
+    .projects-section{
+        height: 600vh;
+    }
+    .mini-projects-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mini-project-1{
+        width: 70%;
+        height: 50%;
+        font-size: 12px;
+    }
+    .mini-project-2{
+        width: 70%;
+        height: 50%;
+        font-size: 12px;
+    }
+    .mini-project-3{
+        width: 70%;
+        height: 50%;
+        font-size: 12px;
+    }
+    .mini-project-1 p{
+        overflow-y: hidden;
+    }
+    .mini-project-2 p{
+        overflow-y: hidden;
+    }
+    .mini-project-3 p{
+        overflow-y: hidden;
+    }
+    .clones-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .clone-1{
+        width: 70%;
+    }
+    .clone-2{
+        width: 70%;
+    }
+    .main-projects-heading{
+        padding-left: 20px;
+    }
+    .container-1{
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+    }
+    .container-2{
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+    }
+    .container-3{
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+    }
+    .cert-image-holder{
+        width: 80%;
+        height: auto;
+        padding: 0 0 0 0;
+        display: flex;
+        justify-content: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .certifications-section{
+        height: 400vh
+    }
+    .heading{
+        font-size:28px
+    }
+    .contact-section{
+        width: 80vw;
+    }
+    .contact-me{
+        height: 850px;
+    }
 }
-.contact-me-mountain-2 img{
-    width: 200px;
-    height: auto;
-}
-.contact-me-tower{
-    position: absolute;
-    margin-top: 2.5%;
-    margin-left: 15%;
-}
-.contact-me-branch-1{
-    position: absolute;
-    margin-top: -40%;
-}
-.contact-me-branch-2{
-    position: absolute;
-    margin-top: -30%;
-    margin-left: 90%;
+@media only screen and (max-width:600px){
+    .main-project-1{
+        width: 110%;
+        height: 80%;
+        font-size: 12px;
+    }
+    .main-project-2{
+        width: 110%;
+        height: 80%;
+        font-size: 12px;
+    }
+    .main-project-1 img{
+        width: 350px;
+        height: auto;
+    }
+    .main-project-2 img{
+        width: 350px;
+        height: auto;
+    }
+    .main-project-2 p{
+        overflow-y: hidden;
+        padding-bottom: 1.5rem;
+        /* margin-bottom: 1rem; */
+    }
+    .name-section{
+        width: 70%;
+        text-align: center;
+    }
+    .intro{
+        text-align: justify;
+        line-height: 1.5;
+    }
+    .front-end-section{
+        width: 300px;   
+    }
+    .back-end-section{
+        width: 300px;
+    }
+    .tools-section{
+        width: 300px;
+        font-size: 30px;
+    }
+    .skills-heading-2{
+        font-size: 20px;
+    }
+    .tools-section p{
+        font-size: 20px;
+    }
+    .front-end-section p{
+        font-size: 20px;
+    }
+    .back-end-section p{
+        font-size: 20px;
+    }
+    .skills-heading{
+        font-size: 30px;
+    }
+    .mini-project-1{
+        width: 110%;
+        height: 50%;
+        font-size: 12px;
+    }
+    .mini-project-2{
+        width: 110%;
+        height: 50%;
+        font-size: 12px;
+    }
+    .mini-project-3{
+        width: 110%;
+        height: 50%;
+        font-size: 12px;
+    }
+    .mini-project-1 p{
+        overflow-y: hidden;
+    }
+    .mini-project-2 p{
+        overflow-y: hidden;
+    }
+    .mini-project-3 p{
+        overflow-y: hidden;
+    }
+    .main-project-1{
+        width: 100%;
+        height: 60%;
+
+        font-size: 12px;
+    }
+    .main-project-1 p {
+        overflow-y: hidden;
+        /* padding-bottom: rem; */
+    }
+    .main-project-2{
+        width: 100%;
+        height: 62%;
+        font-size: 12px;
+
+    }
+    .main-project-2 p{
+        overflow-y: hidden;
+    }
+    .clone-1{
+        width: 110%;
+    }
+    .clone-2{
+        width: 110%;
+    }
+    .projects-section{
+        height: 610vh;
+    }
+    .certifications-section{
+        height: 320vh
+    }
 }
