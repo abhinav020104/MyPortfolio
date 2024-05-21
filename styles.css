@@ -597,6 +597,12 @@ button:hover{
 .social-media i {
     margin-right: 10px;
 }   
+.contact-heading{
+    text-align: center; 
+    font-size: 38px; 
+    margin-top: 60px; 
+    color:rgba(32, 33, 71, 1);
+}
 @media only screen and (max-width:1060px){
     .name-section{
         font-size: 25px;
@@ -852,6 +858,9 @@ button:hover{
         height: 610vh;
     }
     .certifications-section{
-        height: 320vh
+        height: 340vh
+    }
+    .contact-heading{
+        font-size: 25px;
     }
 }
