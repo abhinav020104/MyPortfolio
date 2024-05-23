@@ -378,7 +378,7 @@ button a{
     margin-top: 60px; 
     font-size:38px;
     /* color: rgba(238, 218, 174, 1) */
-    
+
 }
 .certifications-container{
     display: flex;
@@ -480,6 +480,7 @@ button a{
 .contact-info, .social-media, .business-inquiries {
     margin-bottom: 20px;
     width: 100%;
+    overflow-y:hidden;
 }
 
 .flex-spacer {
@@ -491,12 +492,14 @@ button a{
     /* color: #333; */
     color: black;
     line-height: 1;
+    overflow-y:hidden;
 }
 
 .contact-info p, .social-media p, .business-inquiries p {
     margin-bottom: 20px;
     /* color: #555; */
     color: white;
+    overflow-y:hidden;
 }
 
 .social-media ul {
@@ -528,7 +531,7 @@ button a{
     text-align: center; 
     font-size: 38px; 
     margin-top: 60px; 
-    color:rgba(32, 33, 71, 1);
+    /* color:rgba(32, 33, 71, 1); */
 }
 @media only screen and (max-width:1060px){
     .name-section{
