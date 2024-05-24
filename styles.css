@@ -315,7 +315,7 @@ body {
     display: flex;
     width: 100vw;
     margin-top: 60px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: center;
     font-size: 16px;
     font-family: "Poetsen One", sans-serif;
