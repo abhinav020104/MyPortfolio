@@ -317,7 +317,7 @@ body {
     margin-top: 60px;
     justify-content: space-evenly;
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     font-family: "Poetsen One", sans-serif;
     font-weight: 100;
     padding-left: 20px;
@@ -571,9 +571,9 @@ button a{
     }
     .main-project-1{
         width: 70%;
-        height: 60%;
+        height: 75%;
 
-        font-size: 12px;
+        font-size: 20px;
     }
     .main-project-1 p {
         overflow-y: hidden;
@@ -582,7 +582,7 @@ button a{
     .main-project-2{
         width: 70%;
         height: 62%;
-        font-size: 12px;
+        font-size: 20px;
 
     }
     .main-project-2 p{
@@ -605,18 +605,18 @@ button a{
     }
     .mini-project-1{
         width: 70%;
-        height: 50%;
-        font-size: 12px;
+        height: 70%;
+        font-size: 20px;
     }
     .mini-project-2{
         width: 70%;
-        height: 50%;
-        font-size: 12px;
+        height: 70%;
+        font-size: 20px;
     }
     .mini-project-3{
         width: 70%;
-        height: 50%;
-        font-size: 12px;
+        height: 70%;
+        font-size: 20px;
     }
     .mini-project-1 p{
         overflow-y: hidden;
